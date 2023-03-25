@@ -1,1 +1,1 @@
-0x03. C - Debugging
+directory for project 0x03-debugging

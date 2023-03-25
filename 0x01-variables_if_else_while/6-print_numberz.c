@@ -1,32 +1,18 @@
 #include <stdio.h>
 
-
 /**
-
- * main - Prints numbers from 0 to 9.
-
- *
-
- * Return: Always 0 (Success)
-
- */
-
+* main - Print all single digit numbers using only putchar
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
-
 {
+	int digit;
 
-int i;
+	for (digit = 0; digit < 10; digit++)
+	putchar(digit + '0');
 
-for (i = 48; i < 58; i++)
+	putchar('\n');
 
-{
-
-putchar(i);
-
-}
-
-putchar('\n');
-
-return(0);
-
+	return (0);
 }

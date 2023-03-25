@@ -1,2 +1,1 @@
-project
-0x01. C - Variables, if, else, while
+a new directory for "0x01-variables_if_else_while" project
